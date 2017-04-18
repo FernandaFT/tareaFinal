@@ -1,0 +1,83 @@
+@font-face {
+	font-family: 'franchise';
+	src: url('../font/franchise-bold-webfont.woff2') format('woff2'),
+     	url('../font/franchise-bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+h1 {
+	font-family: $font-lato;
+	font-size: 36px;
+	color: $color-brown;
+	text-transform: uppercase;
+	margin: 15px 28px 0 28px;
+	text-align: center;
+	padding: 24px;
+	border-bottom: 7px solid $color-brown;
+}
+h2 {
+	font-family:'lato', sans-serif;
+	font-size: 18px;
+	color: $color-brown;
+	text-transform: uppercase;
+	margin: 15px 28px 0 28px;
+	padding-bottom: 11px;
+	border-bottom: 1px solid $color-brown;
+}
+h3 {
+	font-family: 'lato', sans-serif;
+	font-size: 15px;
+	color: $color-brown;
+	text-transform: uppercase;
+	border-bottom: 1px solid $color-brown;
+}
+h4 {
+	font-family: 'lato',sans-serif;
+	font-size: 18px;
+	color: $color-orange;
+}
+.Letravideo {
+	border-top: 3px solid $color-brown;
+	border-bottom: 1px solid $color-brown;
+	padding: 9px;
+}
+.tittleInfo {
+	font-family: 'lato', sans-serif;
+	font-size: 19px;
+	text-transform: uppercase;
+	color: $color-brown;
+}
+.infoTittle {
+	font-family: 'arvo', serif;
+	font-size: 13px;
+	color: $color-brown;
+}
+.post {
+	font-family: ';lato', sans-serif;
+	font-family: 21px;
+	color: $color-brown;
+}
+.postDate {
+	color: $color-mostaza;
+}
+.tittleEarth {
+	font-family: "lato ", sans-serif;
+	font-size: 20px;
+	color:  $color-brown;
+}
+.infEarthTittle  {
+	font-family: 'arvo' , sans-serif;
+	font-size: 13px;
+	color: $color-brown;
+}
+.letterFooter {
+	font-family: 'arvo', sans-serif;
+	font-size: 14px;
+	color: $color-grayLight;
+}
+.infoFooter {
+	width: 303px;
+	float: left;
+	margin: 24px;
+}

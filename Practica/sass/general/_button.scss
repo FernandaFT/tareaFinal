@@ -1,0 +1,76 @@
+/*
+Sprites
+*/
+.sprite{
+    /*Set img sprite*/
+    background-image: url('../img/redes.png');
+    background-repeat: no-repeat;
+    display: block;
+
+    /* Ancho y Altura */
+    width: 32px;
+    height: 32px;
+
+    /*Clear text*/
+    background-color: transparent;border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    text-indent:-9999px;
+    &:before {content: "";display: block;width: 0;height: 150%;}
+}
+.img-as {
+    background-position: 0 0;
+}
+.img-tumblr {
+    background-position: -43px 0;
+}
+.img-twitter {
+    background-position: -85px 0;
+}
+.img-dribbble {
+    background-position: -128px 0;
+}
+.iconsSocialM {
+    overflow: hidden;
+}
+.iconsSocialM {
+    margin: 26px;
+}
+.iconsSocialM li {
+    float: right;
+}
+.secoundNav {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.navLink > a{
+    font-family:'lato', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    color:$color-grayLight;
+}
+.navLink{
+    padding: 10px;
+}
+button {
+    background-color: $color-orange;
+    color: $color-brownLight; 
+    cursor: pointer;
+    padding: 8px 16px 8px 16px;
+    box-shadow: 5px 4px 3px grey;
+}
+.aside {
+    padding: 0;
+}
+.aside li {
+    list-style: none;
+    line-height: 0;
+    padding: 6px;
+    margin-top: 10px;
+    border-bottom: 1px solid #b8a69a;
+}

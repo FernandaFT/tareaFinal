@@ -1,0 +1,67 @@
+body {
+	margin: 0 auto;
+	background-image: url(../img/fondo.jpg);
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.wrapper {
+    width: 85%;
+    background-color: #dedad3;
+    margin: 0 auto;
+}
+
+header{
+    overflow: hidden;
+}
+.btnRedesS li {
+	padding: 9px;
+}
+.btnRedesS {
+    display: inline-block;
+    padding: 0;
+}
+.iconsSocialM {
+    float: right;
+}
+nav {
+    background-color:$color-orange;
+}
+.linkHome {
+    position: relative;
+}
+.navSubmenu {
+    visibility:hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.linkHome:hover .navSubmenu{
+    visibility: visible; 
+}
+nav > ul > li {
+    display: inline-block;
+}
+nav  .navLink:hover {
+    background-color:$color-brown;
+}
+.navSubmenuItem:hover {
+    background-color:$color-brown;
+}
+div {
+        overflow: hidden;
+}
+aside {
+    float: left;
+    border-top: 3px solid $color-brown;
+    margin: 37px;
+}
+.InfoVideo {
+    float: left;
+    margin: 21px;
+}
